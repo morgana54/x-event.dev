@@ -1,0 +1,27 @@
+{
+  "name": "x-event.dev",
+  "version": "1.0.0",
+  "description": "[WIP] Custom analytics tool.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgana54/x-event.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morgana54/x-event.dev/issues"
+  },
+  "homepage": "https://github.com/morgana54/x-event.dev#readme"
+}
