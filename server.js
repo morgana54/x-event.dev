@@ -1,8 +1,6 @@
-import express from "express";
-import bp from "body-parser";
-import cors from "cors";
-
-import path from "path";
+const express = require("express");
+const bp = require("body-parser");
+const cors = require("cors");
 
 const app = express();
 const port = 3000;
@@ -28,8 +26,9 @@ app.get("/events", (req, res) => {
 
 app.get("/admin", (req, res) => {
   const fileName = "admin-panel.html";
+
   const options = {
-    root: path.join(__dirname, fileName),
+    root: __dirname,
   };
 
   res.sendFile(fileName, options, function (err) {
